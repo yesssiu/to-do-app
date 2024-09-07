@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +8,10 @@
 
 :root {
     --background: #d3bccf;
-    --secondaryBackground: #ebe0ee;
+    --secondaryBackground: #ded5dc;
     --text: #000;
-    --purple: #63446c;
-    --pink: #ba61ad;
+    --purple: #68526e;
+    --pink: #9d5d93;
 }
 
 body {
@@ -34,11 +36,16 @@ body {
     justify-content: space-between;
     gap: 50px;
     width: 100%;
+    background-color: var(--secondaryBackground);
+    box-shadow: 7px 7px 9px #0000004f;
 }
 
 .details {
     width: 100%;
+}
 
+.details h1 {
+    font-family: 'Mate';
 }
 
 #progressBar {
@@ -66,6 +73,7 @@ body {
     border-radius: 50%;
     font-size: 30px;
     font-weight: bold;
+    box-shadow: 2px 2px 6px #0000004f;
 }
 
 form {
@@ -83,6 +91,7 @@ input {
     border-radius: 10px;
     outline: none;
     color: var(--text);
+    box-shadow: 4px 4px 9px #0000004f;
 }
 
 button {
@@ -98,4 +107,5 @@ button {
     font-size: 20px;
     font-weight: bold;
     outline: none;
+    box-shadow: 4px 4px 9px #0000004f;
 }
